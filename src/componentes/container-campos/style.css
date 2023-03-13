@@ -1,0 +1,22 @@
+.container-campos{
+    width: 330px;
+    height: 355px;
+    padding: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 50%;
+    border-radius: 20px;
+}
+
+.btnEnviar{
+    width: 98%;
+    padding: 10px;
+    margin: 12px 0px;
+    background-color: rgba(247, 247, 247, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+    color: rgb(169, 172, 173);
+    cursor: pointer;
+}

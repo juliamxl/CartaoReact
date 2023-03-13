@@ -1,0 +1,33 @@
+.inputs {
+  width: 100%;
+}
+
+.title-input {
+  color: rgb(255, 255, 255);
+}
+
+#input {
+  width: 92%;
+  padding: 10px;
+  margin: 12px 0px;
+  outline: none;
+  background-color: rgba(247, 247, 247, 0.1);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 10px;
+  color: rgb(169, 172, 173);
+  transition: all 0.5s;
+}
+
+#input:nth-child(3){
+  background-color: aqua;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+
+/* #input::placeholder{
+  padding: 12px;
+} */

@@ -1,0 +1,40 @@
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 25%;
+    top: 50%;
+}
+
+.shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(
+        #470077,
+        #bd5ce0
+    );
+    left: -50px;
+    top: -60px;
+}
+
+.shape:last-child{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    left: 300px;
+    bottom: -70px;
+}
