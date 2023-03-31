@@ -6,7 +6,6 @@ function Input(props) {
 
     function aoDigitado(evento) {
        props.aoAlterado(evento.target.value);
-
     }
 
     return (
