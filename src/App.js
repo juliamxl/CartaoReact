@@ -11,7 +11,6 @@ function App() {
   const aoNovoCartaoAdicionado = (cartao) => {
     cartoes.pop()
     setCartao([...cartoes, cartao])
-    console.log(cartoes)
   }
 
   return (
