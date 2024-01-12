@@ -19,7 +19,7 @@ function Form(props) {
             <div className="container-form">
                 <InfosCartao
                     numeroCartao= '0000 0000 0000 0000'
-                    titular='Laranjinha'
+                    titular='Seu nome'
                     expiracao='12/24'
                     CVC='1234'
                 />
